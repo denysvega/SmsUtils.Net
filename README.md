@@ -1,6 +1,9 @@
-SMS utils: Utility methods for SMS messages 
-Ported from Java: https://github.com/balamaci/sms-utils
+[![CI](https://github.com/denysvega/SmsUtils.Net/workflows/.NET/badge.svg)](https://github.com/denysvega/SmsUtils.Net/actions?query=workflow%3A.NET)
+
+SMS utils: Utility methods for SMS messages. 
 =====================================
+Ported from Java [sms-utils](https://github.com/balamaci/sms-utils).
+
 Small utility library for SMS. Can be used to determine the necessary encoding and in how many sms parts it must be split into multiple sms parts. 
 
 Apache License.
