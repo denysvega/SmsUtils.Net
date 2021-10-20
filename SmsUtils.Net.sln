@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmsUtils.Net", "src\SmsUtils.Net\SmsUtils.Net.csproj", "{07B45A7C-F099-494B-9C68-00873072B559}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmsUtils.Net.Tests", "tests\SmsUtils.Net.Tests\SmsUtils.Net.Tests.csproj", "{2A980DFD-2185-4EBC-ADEC-622801C6A704}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{035D8BCB-6C38-466F-AD58-086E79DEA248}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{15936A07-9F80-4519-B134-FE006E5C1996}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E935FEED-EC23-4F4C-98E6-FB0D30A565EA}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07B45A7C-F099-494B-9C68-00873072B559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B45A7C-F099-494B-9C68-00873072B559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B45A7C-F099-494B-9C68-00873072B559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B45A7C-F099-494B-9C68-00873072B559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A980DFD-2185-4EBC-ADEC-622801C6A704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A980DFD-2185-4EBC-ADEC-622801C6A704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A980DFD-2185-4EBC-ADEC-622801C6A704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A980DFD-2185-4EBC-ADEC-622801C6A704}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07B45A7C-F099-494B-9C68-00873072B559} = {035D8BCB-6C38-466F-AD58-086E79DEA248}
+		{2A980DFD-2185-4EBC-ADEC-622801C6A704} = {15936A07-9F80-4519-B134-FE006E5C1996}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E9E53C0-81F9-462B-9B29-301DA3773496}
+	EndGlobalSection
+EndGlobal
